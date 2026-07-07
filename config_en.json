@@ -59,7 +59,7 @@
         "priceColor": "#000000",
         "showCartButton": false,
         "elevation": 5.006826936411873,
-        "gridColumns": 3
+        "gridColumns": 2
       },
       "categoryPage": {
         "style": "elegant"
@@ -181,7 +181,7 @@
     }
   },
   "header": {
-    "style": "classic",
+    "style": "floating",
     "showLogo": true,
     "showSearch": true,
     "showNotifications": true,
@@ -306,7 +306,7 @@
     "layoutSettings": {}
   },
   "navigation": {
-    "style": "modern",
+    "style": "floating",
     "backgroundColor": "#FFFFFF",
     "activeColor": "#7C3AED",
     "inactiveColor": "#9CA3AF",

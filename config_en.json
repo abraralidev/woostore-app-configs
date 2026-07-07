@@ -306,7 +306,7 @@
     "layoutSettings": {}
   },
   "navigation": {
-    "style": "floating",
+    "style": "classic",
     "backgroundColor": "#FFFFFF",
     "activeColor": "#7C3AED",
     "inactiveColor": "#9CA3AF",

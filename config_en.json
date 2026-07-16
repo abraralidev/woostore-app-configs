@@ -175,7 +175,7 @@
       "itemLimit": 10,
       "title": "Categories",
       "showSeeAll": true,
-      "layoutType": "Wrap",
+      "layoutType": "List",
       "displayMode": "Image",
       "crossAxisCount": 4,
       "spacing": 19.11123853211009,

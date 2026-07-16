@@ -12,27 +12,29 @@
     "logo": "https://res.cloudinary.com/dzlbtqgqz/image/upload/v1782134919/logo_cua7b5.png",
     "backgroundColor": "#FFFFFF"
   },
-  "appAssets": {},
+  "appAssets": {
+    "appLauncherIcon": "https://woostorebuilder.b-cdn.net/banners/485906bd-8b3a-4e56-9244-5ac20399865e.png"
+  },
   "onboarding": {
     "enabled": true,
     "slides": [
       {
-        "title": "Welcome to Woostore",
-        "subtitle": "Discover amazing products from top vendors around the world",
-        "image": "https://woostorebuilder.b-cdn.net/banners/b01b1093-a6a1-41ff-a975-bf35f4458c10.png",
-        "color": "#FF5733"
+        "title": "Welcome to Woostores",
+        "image": "https://woostorebuilder.b-cdn.net/banners/c54f2950-5de4-4a65-9915-cd13a1e36eb7.png",
+        "color": "#FFFFFF",
+        "subtitle": "Discover amazing products from top vendors around the worlds"
       },
       {
-        "title": "Easy Shopping",
-        "subtitle": "Browse categories and find exactly what you need with smart search",
-        "image": "https://woostorebuilder.b-cdn.net/banners/d2871275-030e-47bb-b7ac-e75c5d54ecb2.png",
-        "color": "#33C4FF"
+        "title": "Easy Shoppings",
+        "image": "https://woostorebuilder.b-cdn.net/banners/c0c2a7fc-135b-45af-bc7d-635e98c20010.png",
+        "color": "#FFFFFF",
+        "subtitle": "Browse categories and find exactly what you need with ssmart search"
       },
       {
-        "title": "Fast Delivery",
-        "subtitle": "Get your orders delivered quickly and track them in real-time",
-        "image": "https://woostorebuilder.b-cdn.net/banners/74609f20-3a4f-4fd7-9caf-3deabc1f4890.png",
-        "color": "#8E44AD"
+        "title": "Fast Deliverys",
+        "image": "https://woostorebuilder.b-cdn.net/banners/2978d634-ad1a-48ef-b7f6-8c4c1f79185d.png",
+        "color": "#FFFFFF",
+        "subtitle": "Get your order delivered quickly and track them in real-times"
       }
     ],
     "skipButtonText": "Skip",
@@ -41,45 +43,149 @@
   },
   "ui": {
     "theme": {
+      "colors": {
+        "primary": "#FF6707",
+        "secondary": "#BE00FF",
+        "accent": "#11F45D",
+        "background": "#FFFFFF"
+      },
+      "fonts": {
+        "primary": "Outfit"
+      },
+      "borderRadius": 24,
+      "mode": "light",
       "productCard": {
         "showVendor": true,
-        "showCartButton": false
+        "style": "classic",
+        "cardBackgroundColor": "#FFFFFF",
+        "textColor": "#000000",
+        "priceColor": "#000000",
+        "showCartButton": true,
+        "elevation": 3.952426749578415,
+        "gridColumns": 2,
+        "borderRadius": 30,
+        "showPrice": true,
+        "showRating": true,
+        "showCategory": true,
+        "showFavorite": true
       },
       "categoryPage": {
-        "style": "modern"
+        "style": "elegant"
       },
       "cartPage": {
-        "style": "modern"
+        "style": "elegant"
       },
       "profilePage": {
         "style": "modern"
       },
-      "fonts": {
-        "primary": "Inter"
-      }
+      "vendorCard": {
+        "style": "elegant",
+        "backgroundColor": "#FFFFFF",
+        "elevation": 5.041960897976391,
+        "borderRadius": 10.687183811129845,
+        "showProductCount": true,
+        "cardBackgroundColor": "#FFFFFF",
+        "showRating": true
+      },
+      "spacing": 8
     },
     "categories": [
       {
-        "id": "333993869488",
-        "name": "Home page",
-        "image": "",
-        "icon": "🛍️",
+        "id": "256",
+        "name": "Audio",
+        "image": "https://wfcm.shopifellow.com/wp-content/uploads/2024/08/07.jpg",
+        "icon": "🎵",
+        "color": "#EC4899",
+        "enabled": true
+      },
+      {
+        "id": "295",
+        "name": "Electrical",
+        "image": "https://wfcm.shopifellow.com/wp-content/uploads/2024/08/02.jpg",
+        "icon": "📦",
+        "color": "#0891B2",
+        "enabled": true
+      },
+      {
+        "id": "93",
+        "name": "Electronics",
+        "image": "https://wfcm.shopifellow.com/wp-content/uploads/2024/08/04.jpg",
+        "icon": "💻",
+        "color": "#D97706",
+        "enabled": true
+      },
+      {
+        "id": "105",
+        "name": "Furniture",
+        "image": "https://wfcm.shopifellow.com/wp-content/uploads/2024/08/06.jpg",
+        "icon": "🏠",
+        "color": "#0891B2",
+        "enabled": true
+      },
+      {
+        "id": "114",
+        "name": "Groceries",
+        "image": "https://wfcm.shopifellow.com/wp-content/uploads/2023/08/cat-01.jpg",
+        "icon": "📦",
+        "color": "#DC2626",
+        "enabled": true
+      },
+      {
+        "id": "144",
+        "name": "Jewellery",
+        "image": "https://wfcm.shopifellow.com/wp-content/uploads/2023/08/cat-04.jpg",
+        "icon": "📦",
+        "color": "#DC2626",
+        "enabled": true
+      },
+      {
+        "id": "152",
+        "name": "Kitchenware",
+        "image": "https://wfcm.shopifellow.com/wp-content/uploads/2024/08/03.jpg",
+        "icon": "📦",
+        "color": "#059669",
+        "enabled": true
+      },
+      {
+        "id": "200",
+        "name": "Skin Care",
+        "image": "https://wfcm.shopifellow.com/wp-content/uploads/2023/08/cat-08.jpg",
+        "icon": "🚗",
         "color": "#4F46E5",
+        "enabled": true
+      },
+      {
+        "id": "217",
+        "name": "Stationery",
+        "image": "https://wfcm.shopifellow.com/wp-content/uploads/2023/08/cat-07.jpg",
+        "icon": "📦",
+        "color": "#8B5CF6",
+        "enabled": true
+      },
+      {
+        "id": "244",
+        "name": "Women",
+        "image": "https://wfcm.shopifellow.com/wp-content/uploads/2024/08/05.jpg",
+        "icon": "📦",
+        "color": "#DC2626",
         "enabled": true
       }
     ],
     "categoriesSettings": {
-      "itemLimit": 8,
+      "itemLimit": 10,
       "title": "Categories",
       "showSeeAll": true,
-      "layoutType": "Grid",
+      "layoutType": "Wrap",
       "displayMode": "Image",
       "crossAxisCount": 4,
-      "spacing": 16,
-      "borderRadius": 16,
-      "shadowIntensity": 0.06,
+      "spacing": 19.11123853211009,
+      "borderRadius": 11.997956055186524,
+      "shadowIntensity": 0.1706550379426644,
       "horizontalPadding": 20,
       "verticalPadding": 10,
+      "style": "grid",
+      "paddingTop": 0,
+      "paddingBottom": 0,
       "categoryStyle": "card"
     }
   },
@@ -88,8 +194,8 @@
     "showLogo": true,
     "showSearch": true,
     "showNotifications": true,
-    "backgroundColor": "#8F00FB",
-    "height": 60
+    "backgroundColor": "#F90505",
+    "height": 71.88797691821247
   },
   "home": {
     "sections": [
@@ -102,23 +208,33 @@
           "banners": [
             {
               "id": "banner1",
-              "title": "New Banner",
-              "subtitle": "Banner description",
-              "buttonText": "Shop Now",
+              "title": "New Bannersa",
+              "subtitle": "Banner descriptionsa",
+              "buttonText": "Shop Nowsf",
+              "color": "#0019FF",
+              "imageData": null,
+              "imageUrl": "https://woostorebuilder.b-cdn.net/banners/8c12cc96-f17b-4db3-89ce-7c96ddac4285.jpg"
+            },
+            {
+              "id": "banner2",
+              "title": "second banner",
+              "subtitle": "Banner descriptiond",
+              "buttonText": "Shop Nowa",
               "color": "#4F46E5",
               "imageData": null,
-              "imageUrl": null
+              "imageUrl": "https://woostorebuilder.b-cdn.net/banners/bd9b6c8d-dc3d-4991-9247-2d90f0f13ed9.jpg"
             }
           ],
           "settings": {
             "autoPlay": true,
             "style": "full",
-            "height": 251.04,
+            "height": 254.21817660550457,
             "width": 100,
-            "verticalSpacing": 8,
+            "verticalSpacing": 23.324541284403672,
             "horizontalPadding": 0,
-            "borderRadius": 0,
-            "duration": 3000
+            "borderRadius": 14.01476490825688,
+            "duration": 6000,
+            "enabled": true
           }
         }
       },
@@ -136,36 +252,58 @@
         "enabled": true,
         "data": {
           "title": "Featured Products",
-          "source": "featured"
+          "source": "featured",
+          "settings": {
+            "verticalSpacing": 40,
+            "height": 300,
+            "width": 87.93979357798165,
+            "horizontalPadding": 30
+          }
         }
       },
       {
-        "id": "banner_1775901932584",
+        "id": "banner_1783077187372",
         "type": "banner",
         "enabled": true,
         "data": {
-          "title": "Banner",
+          "title": "New Section",
           "banners": [
             {
               "id": "banner1",
-              "title": "New Banner",
-              "subtitle": "Banner description",
-              "buttonText": "Shop Now",
-              "color": "#4F46E5",
+              "title": "New Ban",
+              "subtitle": "Banner descri",
+              "buttonText": "Shop N",
+              "color": "#7310E6",
               "imageData": null,
-              "imageUrl": null
+              "imageUrl": "https://woostorebuilder.b-cdn.net/banners/ddd69cd3-64d8-49b9-a504-84244feb9ff7.jpg"
             }
           ],
           "settings": {
             "autoPlay": true,
             "style": "full",
-            "height": 251.04,
+            "height": 198.41456422018348,
             "width": 100,
-            "verticalSpacing": 8,
+            "verticalSpacing": 12.166857798165138,
             "horizontalPadding": 0,
-            "borderRadius": 0,
+            "borderRadius": 12.006450688073395,
             "duration": 3000
           }
+        }
+      },
+      {
+        "id": "vendor_list_1783082646114",
+        "type": "vendor_list",
+        "enabled": true,
+        "data": {
+          "title": "Top Shops"
+        }
+      },
+      {
+        "id": "brand_list_1783077154089",
+        "type": "brand_list",
+        "enabled": false,
+        "data": {
+          "title": "Brands"
         }
       },
       {
@@ -176,24 +314,9 @@
           "title": "Popular Products",
           "source": "popular"
         }
-      },
-      {
-        "id": "brands",
-        "type": "brands",
-        "enabled": true,
-        "data": {
-          "title": "Brands"
-        }
-      },
-      {
-        "id": "vendor_list",
-        "type": "vendor_list",
-        "enabled": true,
-        "data": {
-          "title": "Top Stores"
-        }
       }
-    ]
+    ],
+    "layoutSettings": {}
   },
   "navigation": {
     "style": "modern",
@@ -209,13 +332,13 @@
         "enabled": true
       },
       {
-        "icon": "category",
+        "icon": "category_outlined",
         "label": "Categories",
         "page": "categories",
         "enabled": true
       },
       {
-        "icon": "shopping_cart_outlined",
+        "icon": "storefront",
         "label": "Cart",
         "page": "cart",
         "enabled": true
@@ -506,73 +629,27 @@
     "default": "en",
     "enabled": [
       {
+        "code": "zh",
+        "name": "中文 (Chinese)"
+      },
+      {
+        "code": "da",
+        "name": "Dansk (Danish)"
+      },
+      {
         "code": "en",
         "name": "English"
       },
       {
-        "code": "ar",
-        "name": "Arabic"
-      },
-      {
         "code": "ur",
-        "name": "Urdu"
-      },
-      {
-        "code": "hi",
-        "name": "Hindi"
-      },
-      {
-        "code": "bn",
-        "name": "Bengali"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      },
-      {
-        "code": "de",
-        "name": "German"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      },
-      {
-        "code": "pt",
-        "name": "Portuguese"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      },
-      {
-        "code": "ko",
-        "name": "Korean"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      },
-      {
-        "code": "tr",
-        "name": "Turkish"
-      },
-      {
-        "code": "vi",
-        "name": "Vietnamese"
-      },
-      {
-        "code": "id",
-        "name": "Indonesian"
+        "name": "اردو (Urdu)"
       }
+    ],
+    "enabledCodes": [
+      "en",
+      "ur",
+      "zh",
+      "da"
     ]
   },
   "currencies": {
